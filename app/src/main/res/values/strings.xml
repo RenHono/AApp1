@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AApp1</string>
+
+    <string name="bookstand">书架</string>
+    <string name="stack">书库</string>
+    <string name="category">发现</string>
+    <string name="city_icon">精选</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/rgmain"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:background="@android:color/white"
+    android:orientation="horizontal">
+
+
+    <RadioButton
+        android:id="@+id/rbbookstand"
+        style="@style/main_tab_item_style"
+        android:drawableTop="@drawable/radio_bookstand"
+        android:text="@string/bookstand" />
+
+    <RadioButton
+        android:id="@+id/rbcity_icon"
+        style="@style/main_tab_item_style"
+        android:drawableTop="@drawable/radio_city_icon"
+        android:text="@string/city_icon" />
+
+    <RadioButton
+        android:id="@+id/rbstack"
+        style="@style/main_tab_item_style"
+        android:drawableTop="@drawable/radio_stack"
+        android:text="@string/stack" />
+
+    <RadioButton
+        android:id="@+id/rbcategory"
+        style="@style/main_tab_item_style"
+        android:drawableTop="@drawable/radio_category"
+        android:text="@string/category" />
+
+
+</RadioGroup>
+
